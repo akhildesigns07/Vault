@@ -1,8 +1,7 @@
 app:
     name: Vault
     code: VAULT
-    notify: appzdev@cloudbourne.co
-
+    notify: akhildesigns07@gmail.com
 build:
     version: 0.4
     env: DEV
@@ -11,7 +10,7 @@ build:
     image_template: vault-1.2
 
 deploy:
-    context: alpha/DEV
+    context: akhildesigns07/DEV
     type: statefulset
     replicas: 1
     port:
